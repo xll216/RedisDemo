@@ -21,12 +21,12 @@ public class MainTest {
 
     @Test
     public void testService() {
-        Student student = studentService.selectByID(1);
+        Student student = studentService.selectByID(11);
         System.out.println("***************");
         System.out.println(student);
         System.out.println("***************");
 
-        student = studentService.selectByID(1);
+        student = studentService.selectByID(11);
         System.out.println("***************");
         System.out.println(student);
         System.out.println("***************");
